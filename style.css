@@ -71,12 +71,13 @@ form button:hover {
   font-size: 1rem;
 } */
 .todo-container {
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .todo-list {
-  min-width: 50%;
+  min-width: 70%;
   list-style: none;
 }
 .fa-trash,
@@ -88,7 +89,7 @@ form button:hover {
   margin: 1rem;
   background-color: rgb(230, 230, 230);
   border-radius: 5px;
-  box-shadow: 5px 5px 15px rgba(28, 28, 28, 0.775);
+  box-shadow: 3px 3px 8px rgba(28, 28, 28, 0.775);
   color: black;
   font-size: 1.5rem;
   display: flex;
