@@ -29,7 +29,14 @@ function addTodo(event){
   todoDiv.appendChild(newTodo);
 
   //Add todo list to loaclstorage
- saveLocalTodos(todoInput.value);
+  if(todoInput.value ===""){
+      alert("Please enter a Task");
+  }else{
+      saveLocalTodos(todoInput.value);
+     todoInput.value;
+      todoList.appendChild(todoDiv);
+  }
+ 
 
   //checked marl buttom
   const completedButton = document.createElement('button');
@@ -47,14 +54,7 @@ function addTodo(event){
 
 
    
-    //clear /check todo input value
-   if(todoInput.value === ""){
-       alert("Please enter a Task");
-   }else{
-    todoInput.value = "";
-        //Append To list
-     todoList.appendChild(todoDiv);
-   }
+  
 }
 
 
@@ -119,6 +119,7 @@ function deleteCheck(e){
      }
      todos.push(todo);
      localStorage.setItem("todos", JSON.stringify(todos));
+
  }
 
 

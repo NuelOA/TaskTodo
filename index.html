@@ -13,14 +13,17 @@
     <title>Todo list</title>
 </head>
 <body>
+    <div class="container-fluid">
   <div class="App">
      <header>  
          <h1>task todo <i class="fa fa-pencil"></i></h1>
      </header>
-    
-     <p class="content">Workflow task management made easy with Task Todo. Write down your task lets remind you.</p>
+      <div class="container">
+     <p class="content">Workflow task management made easy with Task Todo. Write down your task lets remind you.
+     </p>
+    </div>
       
-     
+       <div class="container">
        <form>
            <input type="text" class="todo-input">
             <button class="todo-button" type="submit"><i class="fa fa-plus"></i></button>
@@ -37,6 +40,7 @@
           </div>
 
         </div>
+    </div>
 
           <script src="./app.js"></script>
           <!-- The core Firebase JS SDK is always required and must be listed first -->
@@ -48,6 +52,7 @@
 
 <!-- Initialize Firebase -->
 <script src="/__/firebase/init.js"></script>
+</div>
        
         <footer>
             <small>Made with ❤️ by <a href="https://kwameokyere.com"target="blank">Kwame Okyere</a> </small>
@@ -57,8 +62,9 @@
             <a href="https://github.com/NuelOA"> <i class="fa fa-github" aria-hidden="true"></a></i>&nbsp;
             <a href="https://www.linkedin.com/in/emmanuel-okyere-asare/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
             </p>
+       
             
         </footer>
-
+  
 </body>
 </html>

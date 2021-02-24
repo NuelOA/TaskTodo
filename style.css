@@ -44,7 +44,7 @@ form input,
 form button {
   border-radius: 30px;
   padding: 0.5rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   box-shadow: 3px 3px 8px rgba(38, 38, 38, 0.871);
   border: none;
   background: #fff;
@@ -54,9 +54,9 @@ form button {
   background: #fff;
   cursor: pointer;
   transition: all 0.3s ease;
-  border-radius: 50px;
-  padding: 1rem 1.8rem 1rem 1.8rem;
-  margin-left: -5rem;
+  border-radius: 100px;
+  padding: 1rem 1.6rem 1rem 1.6rem;
+  margin-left: -3rem;
 }
 form button:hover {
   background: rgb(15, 122, 85);
