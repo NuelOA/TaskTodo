@@ -1,5 +1,4 @@
 
-
 //Selectors
 const todoInput = document.querySelector(".todo-input");
 const todoButton = document.querySelector(".todo-button");
@@ -175,7 +174,3 @@ function getTodos(){
    }
 
       
-
-   document.getElementById("year").innerHTML = new Date().getFullYear();
-
-

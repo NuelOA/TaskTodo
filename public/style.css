@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html body {
+  background-image: linear-gradient(21deg, rgb(45, 66, 79), rgb(7, 79, 73));
+  color: #fff;
+  font-family: "Nunito", sans-serif;
+  min-height: 100%;
+}
+.App {
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.content {
+  text-align: center;
+  justify-content: center;
+}
+
+header {
+  font-size: 1.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+header,
+h1 {
+  color: white;
+  text-transform: uppercase;
+}
+
+header,
+form {
+  min-height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form input,
+form button {
+  border-radius: 30px;
+  padding: 0.4rem;
+  font-size: 1.5rem;
+  /* box-shadow: 3px 3px 8px rgba(38, 38, 38, 0.871); */
+  border: none;
+  background: #fff;
+}
+form button {
+  color: rgb(15, 122, 85);
+  background: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 100px;
+  margin-left: -3rem;
+  padding: 1rem 1.6rem 1rem 1.6rem;
+}
+form button:hover {
+  background: rgb(15, 122, 85);
+  color: #fff;
+}
+/* .calendar-btn {
+  background-color: rgb(14, 13, 13);
+  color: white;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+} */
+.todo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-list {
+  min-width: 50%;
+  list-style: none;
+}
+.fa-trash,
+.fa-check {
+  pointer-events: none;
+}
+
+.todo {
+  margin: 1rem;
+  background-color: rgb(230, 230, 230);
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px rgba(28, 28, 28, 0.775);
+  color: black;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.5s ease;
+}
+.todo li {
+  flex: 1;
+}
+
+.complete-btn,
+.delete-btn {
+  background-color: #1888b8;
+  color: white;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.delete-btn {
+  background-color: rgb(15, 122, 85);
+}
+.todo-item {
+  padding: 0rem 1rem;
+}
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.fall {
+  transform: translateY(8rem) rotateZ(20deg);
+  opacity: 0.8;
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  border: none;
+}
+
+.select {
+  margin: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+select {
+  color: #ff6f47;
+  width: 10rem;
+  cursor: pointer;
+  padding: 1rem;
+}
+.select::after {
+  content: "\25BC";
+  position: absolute;
+  background: #ff6f47;
+  top: 0;
+  right: 0;
+  padding: 1rem;
+  pointer-events: none;
+}
+select:hover::after {
+  background: #fff;
+  color: #ff6f47;
+}
+footer,
+small {
+  background-color: rgb(16, 55, 55);
+  width: 100%;
+  height: 50%;
+  padding: 50px 0px 50px 0px;
+  color: rgb(255, 255, 255);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 0px;
+}
+
+.fa-twitter,
+.fa-github,
+.fa-linkedin {
+  padding: 10px 11px 10px 11px;
+  background-color: black;
+  color: #fff;
+  border-radius: 100px;
+}
