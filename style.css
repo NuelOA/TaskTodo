@@ -77,7 +77,7 @@ form button:hover {
 }
 
 .todo-list {
-  min-width: 70%;
+  min-width: 60%;
   list-style: none;
 }
 .fa-trash,
